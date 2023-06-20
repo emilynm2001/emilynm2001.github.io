@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Morgan</title>
+    <script src="https://kit.fontawesome.com/9a04c14e05.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Home.html"><img src = "stairs.jpg"></a>
+            <div class="nav-links" id = "navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT ME</a></li>
+                    <li><a href="resume.html">MY RESUME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="">CONTACT ME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+        <div class="resume">
+            <h1>My resume</h1>
+            <object data="EmilyMorgan-Resume2022.pdf" >
+        </div>
+
+    <div class="space">
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+        dsfsfsfdssfasfafasfa<br>
+    </div>
+    
+    
+    
+    <!---footer---->
+
+    <section class="footer">
+        <h1>Contact Me</h1>
+        <div class="icons" id="icons">
+            <a href="https://www.facebook.com/theooakboutique/">
+                <i class="fa-brands fa-facebook-square" ></i>
+            </a>
+            <a href="https://www.instagram.com/the.ooak.boutique/?hl=en">
+                <i class="fa-brands fa-instagram-square"></i>
+            </a>
+        </div>
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>    
+</body>
+</html>
